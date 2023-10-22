@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>CREW</title>
+        <link rel="stylesheet" type="text/css" href="style/style.css">
+        <link rel="stylesheet" type="text/css" href="style/bootstrap.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bellefair&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap" rel="stylesheet">
+        <link rel="icon" type="image/png" href="assets/favicon-32x32.png">
+        <style>
+            @media only screen and (min-width: 375px){
+                body {
+                    background: url("/assets/technology/background-technology-mobile.jpg");
+                    background-size:cover;
+                    height: 100vh;
+                }
+            }
+            @media only screen and (min-width: 768px){
+                body {
+                    background: url("/assets/technology/background-technology-tablet.jpg");
+                    background-size: cover;
+                    height: 100vh;
+                }
+            }
+            @media only screen and (min-width: 1280px){
+                body {
+                    background: url("/assets/technology/background-technology-desktop.jpg");
+                    background-size: cover;
+                    height: 100vh;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="nav-bar">
+            <div class="logo">
+                <a href="index.html"><img src="assets/shared/logo.svg" alt="company logo"></a>
+            </div>
+            <div class="toggle-button-open" id="toggle-ham-menu" onclick="imgClick()"><!--<img src="assets/shared/icon-hamburger.svg">--> </div>
+            <div class="navbar-links" id="nav-links">
+                <ul>
+                    <li id="home-nav-btn"><a href="index.html">00 HOME</a></li>
+                    <li id="dest-nav-btn"><a href="destination.html">01 DESTINATION</a></li>
+                    <li id="crew-nav-btn"><a href="crew.html">02 CREW</a></li>
+                    <li id="tech-nav-btn"><a href="technology.html">03 TECHNOLOGY</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row" id="tech-row">
+                <div class="col-lg-7" id="tech-col1">
+                    <h5 class="tech-title"><span style="color:rgb(158, 158, 158)">03</span>SPACE LAUNCH 101</h5>
+                    <div class="tech-sub-col">
+                        <div class="tech-nums">
+                            <div class="num" id="num1">1</div>
+                            <div class="num" id="num2">2</div>
+                            <div class="num" id="num3">3</div>
+                        </div>
+                        <div class="tech-sub-content">
+                            <p class="terminology-txt">THE TERMINOLOGY ...</p>
+                            <h2 class="tech-main-txt" id="tech-main-txt">LAUNCH VEHICLE</h2>
+                            <p class="tech-desc" id="tech-desc">A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a payload from Earth's surface to space, usually to Earth orbit or beyond. Our WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall, it's quite an awe-inspiring sight on the launch pad!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5" id="tech-col2">
+                    <div class="tech-image1" id="tech-image"></div>
+                </div>
+            </div>
+        </div>
+
+        <script src="js/script.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>

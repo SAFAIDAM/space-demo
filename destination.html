@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>DESTINATION</title>
+        <link rel="stylesheet" type="text/css" href="style/style.css">
+        <link rel="stylesheet" type="text/css" href="style/bootstrap.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bellefair&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap" rel="stylesheet">
+        <link rel="icon" type="image/png" href="assets/favicon-32x32.png">
+        <style>
+            @media only screen and (min-width: 375px){
+                body {
+                    background: url("/assets/destination/background-destination-mobile.jpg");
+                    background-size:cover;
+                    height: 100vh;
+                }
+            }
+            @media only screen and (min-width: 768px){
+                body {
+                    background: url("/assets/destination/background-destination-tablet.jpg");
+                    background-size: cover;
+                    height: 100vh;
+                }
+            }
+            @media only screen and (min-width: 1280px){
+                body {
+                    background: url("/assets/destination/background-destination-desktop.jpg");
+                    background-size: cover;
+                    height: 100vh;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="nav-bar">
+            <div class="logo">
+                <a href="index.html"><img src="assets/shared/logo.svg" alt="company logo"></a>
+            </div>
+            <div class="toggle-button-open" id="toggle-ham-menu" onclick="imgClick()"><!--<img src="assets/shared/icon-hamburger.svg">--> </div>
+            <div class="navbar-links" id="nav-links">
+                <ul>
+                    <li id="home-nav-btn"><a href="index.html">00 HOME</a></li>
+                    <li id="dest-nav-btn"><a href="destination.html">01 DESTINATION</a></li>
+                    <li id="crew-nav-btn"><a href="crew.html">02 CREW</a></li>
+                    <li id="tech-nav-btn"><a href="technology.html">03 TECHNOLOGY</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="destination-page">
+            <div class="container">
+                <div class="row" id="dest-row">
+                    <div class="col-lg-6" id="dest-col1">
+                        <h5 class="dest-title"><span style="color:rgb(158, 158, 158)">01</span>PICK YOUR DESTINATON</h5>
+                        <div class="planetholder">
+                            <img class="planet" id="planet" src="assets/destination/image-moon.webp" alt="moon">
+                        </div>
+                    </div>
+                    <div< class="col-lg-6" id="dest-col2">
+                        <div class="planet-navbar">
+                            <ul>
+                                <li class="moon-btn" id="moon-btn">MOON</li>
+                                <li id="mars-btn">MARS</li>
+                                <li id="europa-btn">EUROPA</li>
+                                <li id="titan-btn">TITAN</li>
+                            </ul>
+                        </div>
+                        <h2 class="moon-name" id="moon-name">MOON</h2>
+                        <p class="moon-desc" id="moon-desc">See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.</p>
+                        <hr class="line">
+                        <div class="bottom-section">
+                            <div class="distance">
+                                <p class="dis-title">AVG. DISTANCE</p>
+                                <p class="dis-value" id="dis-value">384,400 KM</p>
+                            </div>
+                            <div class="time">
+                                <p class="est-time">EST. TRAVEL TIME</p>
+                                <p class="time-value" id="time-value">3 DAYS</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        <script src="js/script.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>
