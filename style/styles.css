@@ -159,7 +159,7 @@ b {
     font-size: 20px;
   }
   .cont-text .text-header-p {
-    font-size: 11px;
+    font-size: 10px;
     text-align: center;
     margin-top: -70px;
     margin-left: 34px;
@@ -174,10 +174,11 @@ b {
     width: 273px;
     text-align: center;
     font-family: 'Barlow', sans-serif;
-    font-size: 17px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 200;
     line-height: 25px;
-    margin-left: 42px;
+    margin-left: 77px;
+    margin-right: 20px;
   }
 }
