@@ -161,13 +161,13 @@ b {
   .cont-text .text-header-p {
     font-size: 11px;
     text-align: center;
-    margin-top: -51px;
-    margin-left: 20px;
+    margin-top: -70px;
+    margin-left: 34px;
     padding-bottom: 17px;
   }
   .cont-text h1{
     font-size: 70px;
-    margin-left: 19px;
+    margin-left: 34px;
 
   }
   .bigger-text-paraghraph{
@@ -179,6 +179,6 @@ b {
     font-style: normal;
     font-weight: 200;
     line-height: 25px;
-    margin-left: 47px;
+    margin-left: 34px;
   }
 }
